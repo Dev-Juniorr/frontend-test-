@@ -1,0 +1,48 @@
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.taks {
+  cursor: pointer;
+}
+
+.card {
+  width: 400px;
+}
+
+.container_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+  padding: 10px 10px 10px 20px;
+  color: #ffffff;
+  background-color: #0088ff;
+}
+
+.description {
+  padding: 10px 10px 10px 20px;
+  font-style: italic;
+}
+
+.buttons_task {
+  padding: 0 20px 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.textDesactive {
+  text-decoration:line-through;
+  padding: 10px 10px 10px 20px;
+  font-style: italic;
+}
+
+.completed {
+  color: #616161;
+  font-size: 30px;
+  cursor: pointer;
+}
